@@ -72,6 +72,7 @@ export const createProductAction = async (
   formData: FormData
 ): Promise<{ message: string }> => {
   const user = await getAuthUser();
+
   try {
     const rawData = Object.fromEntries(formData);
     const file = formData.get("image") as File;

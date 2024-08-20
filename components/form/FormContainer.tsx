@@ -6,7 +6,7 @@ import { useToast } from "@/components/ui/use-toast";
 import { actionFunction } from "@/utils/types";
 
 const initialState = {
-  message: "",
+  message: ""
 };
 
 function FormContainer({
