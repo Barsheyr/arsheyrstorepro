@@ -1,4 +1,3 @@
-"use client";
 import { adminLinks } from "@/utils/links";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -13,6 +12,7 @@ function Sidebar() {
         const isActivePage = pathname === link.href;
         const variant = isActivePage ? "default" : "ghost";
         return (
+          // eslint-disable-next-line react/jsx-key
           <Button
             asChild
             className="w-full mb-2 capitalize font-normal justify-start"
