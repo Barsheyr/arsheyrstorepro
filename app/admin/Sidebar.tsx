@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 "use client";
 import { adminLinks } from "@/utils/links";
 import Link from "next/link";
